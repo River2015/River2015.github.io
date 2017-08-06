@@ -623,10 +623,10 @@ text-align: right;
 .instructors-gallery-link:hover:before {
   opacity: 0;
 }
-.instructors-gallery-link-active:before {
-  content: ' ';
+.instructors-gallery-link:focus:before {
+  /*content: ' ';*/
   background-color: #74e196;
-  height: 101%;
+  /*height: 101%;
   left: 0;
   opacity: 0.5;
   position: absolute;
@@ -636,7 +636,7 @@ text-align: right;
   -o-transition: opacity 0.3s;
   -ms-transition: opacity 0.3s;
   transition: opacity 0.3s;
-  width: 102%;
+  width: 102%;*/
 }
 .column {
   overflow: hidden;
